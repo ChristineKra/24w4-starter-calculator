@@ -1,17 +1,17 @@
 body {
   display: grid;
-  box-shadow: 0 0 20px cadetblue;
+  box-shadow: 0 0 20px rgb(138, 46, 6);
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background: linear-gradient(darkslategray, seagreen, aquamarine, royalblue, darkturquoise,darkturquoise, powderblue, lemonchiffon, lavenderblush, darkkhaki);
+  background: linear-gradient(rgb(72, 73, 57), #887f21, rgb(255, 176, 127), royalblue, darkturquoise,darkturquoise, powderblue, lemonchiffon, lavenderblush, darkkhaki);
   margin: 0;
 }
 
 
 .calculator {
-  background-color: steelblue;
-  box-shadow: 0 0 20px seagreen;
+  background-color: pink;
+  box-shadow: 0 0 20px tan;
   padding: 20px;
   border-radius: 20px;
   box-shadow: 0 0 20px greys;
@@ -22,8 +22,8 @@ body {
   font-family: monospace;
   margin-bottom: 10px;
   padding: 10px;
-  box-shadow: 0 0 20px cadetblue;
-  background-color: lightsteelblue;
+  box-shadow: 0 0 20px rgb(147, 69, 17);
+  background-color: rgb(130, 130, 74);
   box-shadow: 0 0 20px black;
   color: sandybrown;
   border-radius: 5px;
@@ -50,7 +50,7 @@ body {
 }
 
 .btn:hover {
-  background-color: thistle;
+  background-color: rgb(48, 47, 48);
 }
 
 .btn-clear {
@@ -58,5 +58,5 @@ body {
 }
 
 .btn-clear:hover {
-  background-color: #218838;
+  background-color: #e6f883;
 }
